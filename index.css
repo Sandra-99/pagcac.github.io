@@ -1,0 +1,188 @@
+/* Estilos personalizados para superponer el texto en la imagen */
+.image-container {
+    position: relative;
+}
+
+.image-text {
+    position: absolute;
+    width: 40%;
+    top: 50%;
+    right: 10%;
+    transform: translate(0%, -50%);
+    color: azure;
+    padding: 10px;
+    text-align: end;
+}
+
+.parrafo-contenedor {
+  max-height:300px; /* Ajusta la altura máxima del contenedor */
+  padding: 10px;
+}
+
+.p_oct {
+  color: aliceblue; 
+  padding: 2%;
+  font-size: medium;
+  
+}
+
+
+
+/* Estilo para dispositivos pequeños (tabletas y móviles) */
+@media (max-width: 900px){ 
+  .image-text {
+    position: absolute;
+    width: 70%;
+    top: 50%;
+    
+  transform: translate(0%, -50%); 
+    color: azure;
+    padding: 10px;
+    text-align: end;
+  }
+  .card {
+    width: 30rem;
+    margin: auto;
+  }
+  .p_oct {
+    color: rgb(36, 40, 41); 
+  padding: 0%;
+  font-size: smaller;
+  }
+  .row{
+    flex-direction: column;
+    align-items: center;
+  }
+  .col-6 {
+    width: 30rem;
+  }
+
+}
+  @media (max-width: 500px) {
+    .image-text {
+      font-size: x-small;
+      position: absolute;
+      width: 100%;
+      top: 50%;
+      transform: translate(0%, -50%);
+      color: azure;
+      padding: 15px;
+      right: 0;
+      text-align: center;
+    }
+    .btn {
+      font-size: xx-small;
+    }
+    .card {
+      width: 25rem;
+      margin: auto;
+    }
+    .row{
+      flex-direction: column;
+      align-items: center;
+    }
+    .col-6 {
+      width: 25rem;
+      
+    }
+    .ul-foot{
+      flex-wrap: wrap;
+      justify-content: space-around;
+      font-size: small;
+    }
+}
+@media (max-width: 400px) {
+.image-text {
+font-size: xx-small;
+position: absolute;
+width: 100%;
+top: 50%;
+transform: translate(0%, -50%);
+color: azure;
+padding: 15px;
+right: 0;
+text-align: center;
+}
+.btn {
+font-size: xx-small;
+}
+.card {
+width: 20rem;
+margin: auto;
+}
+.row{
+flex-direction: column;
+align-items: center;
+}
+.col-6 {
+width: 20rem;
+}
+.ul-foot{
+flex-wrap: wrap;
+justify-content: space-around;
+}
+}
+@media (max-width: 300px) {
+.image-text {
+font-size:5px;
+position: absolute;
+width: 100%;
+top: 50%;
+transform: translate(0%, -50%);
+color: azure;
+padding: 15px;
+right: 0;
+text-align: center;
+}
+.btn {
+font-size: xx-small;
+}
+.card {
+width: 16rem;
+margin: auto;
+}
+.row{
+flex-direction: column;
+align-items: center;
+
+}
+.col-6 {
+width: 16rem;
+}
+#p-orador2 {
+font-size: x-small;
+}
+#form-small{
+font-size: small;
+}
+.form-control{
+font-size: xsmall;
+}
+.ul-foot{
+flex-wrap: wrap;
+justify-content: space-around;
+}
+}
+
+
+/* Estilo para dispositivos pequeños (tabletas y móviles) */
+@media (max-width: 1200px) {
+.navbar-collapse {
+background-color: #fff; /* Cambia el color de fondo del menú desplegable */
+position: absolute;
+top: 56px; /* Altura de la barra de navegación */
+right: 0;
+left: auto;
+width: 100%;
+padding: 10px 0;
+border-top: 1px solid #ddd; /* Agrega un borde superior */
+z-index: 1;
+}
+
+.navbar-toggler {
+display: block;
+position: absolute;
+top: 0;
+right: 0;
+}
+}
